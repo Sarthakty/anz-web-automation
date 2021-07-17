@@ -1,0 +1,36 @@
+{
+  "name": "webdriverio-cucumber",
+  "version": "1.0.0",
+  "description": "WebdriverIO with Cucumber and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "dev": "wdio --spec",
+    "report": "allure generate allure-results -c && allure open"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "typescript",
+    "chai",
+    "automation"
+  ],
+  "author": "Sarthak Samal",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/node": "^11.9.3",
+    "@types/webdriverio": "^4.5.0",
+    "allure-commandline": "^2.5.0",
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0",
+    "ts-node": "^8.0.2",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.3.3",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.8.0"
+  }
+}
